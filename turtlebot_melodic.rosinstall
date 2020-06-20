@@ -9,6 +9,7 @@
 
 - git: {local-name: turtlebot_msgs, version: indigo, uri: 'https://github.com/turtlebot/turtlebot_msgs.git'}
 - git: {local-name: turtlebot_create, version: melodic, uri: 'https://github.com/turtlebot/turtlebot.git'}
-- git: {local-name: turtlebot_apps, version: indigo, uri: 'https://github.com/turtlebot/turtlebot_apps.git'}
+- git: {local-name: turtlebot_apps, version: melodic, uri: 'https://github.com/tianb03/turtlebot_apps.git'}
+# - git: {local-name: turtlebot_apps, version: indigo, uri: 'https://github.com/turtlebot/turtlebot_apps.git'}
 - git: {local-name: turtlebot_interactions, version: indigo, uri: 'https://github.com/turtlebot/turtlebot_interactions.git'}
 - git: {local-name: turtlebot_simulator, version: melodic, uri: 'https://github.com/turtlebot/turtlebot_simulator.git'}
