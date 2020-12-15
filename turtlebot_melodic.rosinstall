@@ -1,18 +1,41 @@
-- git: {local-name: yocs_msgs, version: release/0.7-melodic, uri: 'https://github.com/yujinrobot/yocs_msgs.git'}
-- git: {local-name: yujin_ocs, version: release/0.8-melodic, uri: 'https://github.com/yujinrobot/yujin_ocs.git'}
-- git: {local-name: kobuki_msgs, version: release/0.7-melodic, uri: 'https://github.com/yujinrobot/kobuki_msgs.git'}
-# binary install
-# - git: {local-name: kobuki_core, version: melodic, uri: 'https://github.com/yujinrobot/kobuki_core.git'}
-- git: {local-name: kobuki, version: melodic, uri: 'https://github.com/yujinrobot/kobuki.git'}
-- git: {local-name: kobuki_desktop, version: melodic, uri: 'https://github.com/yujinrobot/kobuki_desktop.git'}
+- git:
+    local-name: kobuki
+    uri: https://github.com/yujinrobot/kobuki.git
+    version: melodic
+- git:
+    local-name: kobuki_desktop
+    uri: https://github.com/yujinrobot/kobuki_desktop.git
+    version: melodic
+- git:
+    local-name: kobuki_msgs
+    uri: https://github.com/yujinrobot/kobuki_msgs.git
+    version: melodic
+- git:
+    local-name: turtlebot_apps
+    uri: https://github.com/turtlebot/turtlebot_apps.git
+    version: indigo
+- git:
+    local-name: turtlebot_create
+    uri: https://github.com/turtlebot/turtlebot.git
+    version: melodic
+- git:
+    local-name: turtlebot_interactions
+    uri: https://github.com/turtlebot/turtlebot_interactions.git
+    version: indigo
+- git:
+    local-name: turtlebot_msgs
+    uri: https://github.com/turtlebot/turtlebot_msgs.git
+    version: indigo
+- git:
+    local-name: turtlebot_simulator
+    uri: https://github.com/turtlebot/turtlebot_simulator.git
+    version: melodic
+- git:
+    local-name: yocs_msgs
+    uri: https://github.com/yujinrobot/yocs_msgs.git
+    version: release/0.7-melodic
+- git:
+    local-name: yujin_ocs
+    uri: https://github.com/yujinrobot/yujin_ocs.git
+    version: release/0.8-melodic
 
-
-- git: {local-name: turtlebot_msgs, version: indigo, uri: 'https://github.com/turtlebot/turtlebot_msgs.git'}
-- git: {local-name: turtlebot, version: melodic, uri: 'https://github.com/turtlebot/turtlebot.git'}
-
-# - git: {local-name: turtlebot_apps, version: indigo, uri: 'https://github.com/turtlebot/turtlebot_apps.git'}
-# turtlebot_apps is not maintained anymore. turtlebot_navigation is still in indigo version.
-- git: {local-name: turtlebot_apps, version: melodic, uri: 'https://github.com/tianb03/turtlebot_apps.git'}
-
-- git: {local-name: turtlebot_interactions, version: indigo, uri: 'https://github.com/turtlebot/turtlebot_interactions.git'}
-- git: {local-name: turtlebot_simulator, version: melodic, uri: 'https://github.com/turtlebot/turtlebot_simulator.git'}
