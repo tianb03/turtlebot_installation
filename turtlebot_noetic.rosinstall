@@ -1,0 +1,37 @@
+- git:
+    local-name: kobuki
+    uri: https://github.com/yujinrobot/kobuki.git
+    version: melodic
+- git:
+    local-name: kobuki_desktop
+    uri: https://github.com/yujinrobot/kobuki_desktop.git
+    version: melodic
+- git:
+    local-name: turtlebot_apps
+    uri: https://github.com/turtlebot/turtlebot_apps.git
+    version: indigo
+- git:
+    local-name: turtlebot_create
+    uri: https://github.com/turtlebot/turtlebot.git
+    version: melodic
+- git:
+    local-name: turtlebot_interactions
+    uri: https://github.com/turtlebot/turtlebot_interactions.git
+    version: indigo
+- git:
+    local-name: turtlebot_msgs
+    uri: https://github.com/turtlebot/turtlebot_msgs.git
+    version: indigo
+- git:
+    local-name: turtlebot_simulator
+    uri: https://github.com/turtlebot/turtlebot_simulator.git
+    version: melodic
+- git:
+    local-name: yocs_msgs
+    uri: https://github.com/yujinrobot/yocs_msgs.git
+    version: release/0.7-melodic
+- git:
+    local-name: yujin_ocs
+    uri: https://github.com/yujinrobot/yujin_ocs.git
+    version: release/0.8-melodic
+
